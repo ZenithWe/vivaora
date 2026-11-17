@@ -1,0 +1,2 @@
+import { AuthForm } from "@/components/auth-form";
+export default function LoginPage(){return <div className="container grid min-h-[70vh] max-w-5xl items-center gap-10 py-14 lg:grid-cols-2"><div><p className="eyebrow mb-3">Sua jornada continua</p><h1 className="section-title">Acesse sua área de viajante.</h1><p className="muted mt-4 leading-7">Entre para acompanhar solicitações, consultar informações da sua viagem e acessar documentos quando os serviços estiverem habilitados.</p></div><AuthForm/></div>}
